@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="km">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ព្រះអភិធម្ម មេរៀនដំបូង - Mind Map</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/markmap-autoloader@0.15.4"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kantumruy+Pro:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        /* Apply Kantumruy Pro font and dark theme styling */
+        html, body {
+            height: 100%; /* Ensure html and body take full height */
+            margin: 0;
+            padding: 0;
+            overflow: hidden; /* Prevent scrolling of the body */
+        }
+        body {
+            font-family: 'Kantumruy Pro', sans-serif;
+            background-color: #1a202c; /* Dark background */
+            color: #e2e8f0; /* Light text */
+            display: flex;
+            flex-direction: column;
+        }
+        /* Style the container for layout */
+        .markmap-container {
+            flex-grow: 1; /* Allow map container to fill available space */
+            width: 100%;
+            height: 100%; /* Ensure container takes available height */
+            min-height: 0; /* Prevent flex item from growing indefinitely */
+            display: flex; /* Use flex to center SVG if needed, though w-full/h-full should fill it */
+            justify-content: center;
+            align-items: center;
+        }
+        /* Dark mode styles for Markmap SVG */
+        .markmap {
+            font-family: 'Kantumruy Pro', sans-serif; /* Ensure font applies to SVG content */
+            width: 100%;  /* Make SVG fill its container */
+            height: 100%;
+            display: block; /* Ensure SVG behaves like a block */
+            --markmap-text-color: #e2e8f0;
+            --markmap-node-color: #2d3748;
+            --markmap-node-border-color: #4a5568;
+            --markmap-line-color: #4a5568;
+            --markmap-highlight-color: #4299e1;
+            background-color: #1a202c; /* Match body background */
+        }
+        .markmap a {
+            color: #63b3ed;
+        }
+        .markmap a:hover {
+            color: #90cdf4;
+        }
+        /* Header styling */
+        header {
+            background-color: #2d3748;
+            padding: 0.75rem 1.5rem;
+            border-bottom: 1px solid #4a5568;
+            text-align: center;
+            flex-shrink: 0;
+        }
+        header h1 {
+            font-size: 1.25rem;
+            font-weight: 700;
+            color: #e2e8f0;
+        }
+        /* Footer styling */
+        footer {
+            background-color: #2d3748;
+            padding: 0.5rem 1.5rem;
+            border-top: 1px solid #4a5568;
+            text-align: center;
+            font-size: 0.8rem;
+            color: #a0aec0;
+            flex-shrink: 0;
+        }
+    </style>
+</head>
+<body class="flex flex-col h-screen">
+
+    <header>
+        <h1>ព្រះអភិធម្ម មេរៀនដំបូង - Mind Map</h1>
+    </header>
+
+    <div class="markmap-container">
+        <div class="markmap w-full h-full">
+            <script type="text/template">
+---
+markmap:
+  colorFreezeLevel: 3
+  initialExpandLevel: 2
+  zoom: true
+  pan: true
+  # Fit map automatically
+  autoFit: true
+---
+# ព្រះអភិធម្ម មេរៀនដំបូង
+
+## ចេតសិក ៥២ (Cetasika 52)
+- អញ្ញសមានាចេតសិក ១៣ (Aññasamāna 13)
+  - សព្វចិត្តសាធារណចេតសិក ៧ (Sabbacitta-sādhāraṇa 7)
+    - ផស្សា (Phassa)
+    - វេទនា (Vedanā)
+    - សញ្ញា (Saññā)
+    - ចេតនា (Cetanā)
+    - ឯកគ្គតា (Ekaggatā)
+    - ជីវិតិន្ទ្រិយំ (Jīvitindriya)
+    - មនសិការោ (Manasikāra)
+  - បកិណ្ណកចេតសិក ៦ (Pakiṇṇaka 6)
+    - វិតក្កោ (Vitakka)
+    - វិចារោ (Vicāra)
+    - អធិមោក្ខោ (Adhimokkha)
+    - វិរិយំ (Viriya)
+    - បីតិ (Pīti)
+    - ឆន្ទោ (Chanda)
+- អកុសលចេតសិក ១៤ (Akusala 14)
+  - មោហចតុក្ក ៤ (Moha-catukka 4)
+    - មោហោ (Moha)
+    - អហិរិកំ (Ahirika)
+    - អនោត្តប្បំ (Anottappa)
+    - ឧទ្ធច្ចំ (Uddhacca)
+  - លោភតិកៈ ៣ (Lobha-tika 3)
+    - លោភោ (Lobha)
+    - ទិដ្ឋិ (Diṭṭhi)
+    - មានោ (Māna)
+  - ទោសចតុក្ក ៤ (Dosa-catukka 4)
+    - ទោសោ (Dosa)
+    - ឥស្សា (Issā)
+    - មច្ឆរិយំ (Macchariya)
+    - កុក្កុច្ចំ (Kukkucca)
+  - ថីនទុកៈ ២ (Thīna-duka 2)
+    - ថីនំ (Thīna)
+    - មិទ្ធំ (Middha)
+  - វិចិកិច្ឆា ១ (Vicikicchā 1)
+- សោភណចេតសិក ២៥ (Sobhana 25)
+  - សោភណសាធារណចេតសិក ១៩ (Sobhana-sādhāraṇa 19)
+    - សទ្ធា (Saddhā)
+    - សតិ (Sati)
+    - ហិរិ (Hiri)
+    - ឱត្តប្បំ (Ottappa)
+    - អលោភោ (Alobha)
+    - អទោសោ (Adosa)
+    - តត្រមជ្ឈត្តតា (Tatramajjhattatā)
+    - កាយបស្សទ្ធិ (Kāya-passaddhi)
+    - ចិត្តបស្សទ្ធិ (Citta-passaddhi)
+    - កាយលហុតា (Kāya-lahutā)
+    - ចិត្តលហុតា (Citta-lahutā)
+    - កាយមុទុតា (Kāya-mudutā)
+    - ចិត្តមុទុតា (Citta-mudutā)
+    - កាយកម្មញ្ញតា (Kāya-kammaññatā)
+    - ចិត្តកម្មញ្ញតា (Citta-kammaññatā)
+    - កាយបាគុញ្ញតា (Kāya-pāguññatā)
+    - ចិត្តបាគុញ្ញតា (Citta-pāguññatā)
+    - កាយុជុកតា (Kāyujukatā)
+    - ចិត្តុជុកតា (Cittujukatā)
+  - វិរតិចេតសិក ៣ (Virati 3)
+    - សម្មាវាចា (Sammā-vācā)
+    - សម្មាកម្មន្តោ (Sammā-kammanta)
+    - សម្មាអាជីវោ (Sammā-ājīva)
+  - អប្បមញ្ញាចេតសិក ២ (Appamaññā 2)
+    - ករុណា (Karuṇā)
+    - មុទិតា (Muditā)
+  - បញ្ញិន្ទ្រិយំ ១ (Paññindriya 1)
+
+## ចិត្ត ៨៩ ឬ ១២១ (Citta 89/121)
+- កុសលចិត្ត ៣៧ (Kusala 37)
+  - មហាកុសលចិត្ត ៨ (Mahā-kusala 8)
+  - រូបាវចរកុសលចិត្ត ៥ (Rūpāvacara Kusala 5)
+  - អរូបាវចរកុសលចិត្ត ៤ (Arūpāvacara Kusala 4)
+  - លោកុត្តរកុសលចិត្ត ២០ (Lokuttara Kusala 20)
+- អកុសលចិត្ត ១២ (Akusala 12)
+  - លោភមូលចិត្ត ៨ (Lobha-mūla 8)
+  - ទោសមូលចិត្ត ២ (Dosa-mūla 2)
+  - មោហមូលចិត្ត ២ (Moha-mūla 2)
+- វិបាកចិត្ត ៥២ (Vipāka 52)
+  - អកុសលវិបាកចិត្ត ៧ (Akusala Vipāka 7)
+  - កុសលវិបាកអហេតុកចិត្ត ៨ (Kusala Vipāka Ahetuka 8)
+  - មហាវិបាកចិត្ត ៨ (Mahā Vipāka 8)
+  - រូបាវចរវិបាកចិត្ត ៥ (Rūpāvacara Vipāka 5)
+  - អរូបាវចរវិបាកចិត្ត ៤ (Arūpāvacara Vipāka 4)
+  - លោកុត្តរវិបាកចិត្ត ២០ (Lokuttara Vipāka 20)
+- កិរិយាចិត្ត ២០ (Kiriya 20)
+  - អហេតុកកិរិយា ៣ (Ahetuka Kiriya 3)
+  - មហាកិរិយាចិត្ត ៨ (Mahā Kiriya 8)
+  - មហគ្គតកិរិយាចិត្ត ៩ (Mahaggata Kiriya 9)
+- ចិត្តមាន ៤ ភូមិ (4 Bhūmi/Planes)
+  - កាមាវចរចិត្ត ៥៤ (Kāmāvacara 54)
+  - រូបាវចរចិត្ត ១៥ (Rūpāvacara 15)
+  - អរូបាវចរចិត្ត ១២ (Arūpāvacara 12)
+  - លោកុត្តរចិត្ត ៤០ (Lokuttara 40)
+
+## សង្គហៈ ៦ (Saṅgaha 6)
+- វេទនាសង្គហៈ (Vedanā)
+- ហេតុសង្គហៈ (Hetu)
+- កិច្ចសង្គហៈ (Kicca)
+- ទ្វារសង្គហៈ (Dvāra)
+- អារម្មណសង្គហៈ (Ārammaṇa)
+- វត្ថុសង្គហៈ (Vatthu)
+
+## ស្ថានរបស់ចិត្ត (Sthāna of Citta)
+
+## អំពីប្រភេទអារម្មណ៍ (Types of Ārammaṇa)
+
+## អំពីរូប (Rūpa)
+- ចែករូបតាមសមុដ្ឋាន (Classification by Origin)
+- កលាបរូប (Kalāpa Rūpa)
+- ចែករូប ២៨ ជាពីរៗ (Classification in Pairs)
+
+## អប្បនាជវន ៥៨ (Appanā Javana 58)
+
+## ចិត្តកើតក្នុងភព ៣០ ជាន់ (Citta in 30 Planes)
+
+## សរុបចិត្តក្នុងភពផ្សេងៗ (Summary in Planes)
+
+## សរុបចិត្តក្នុងបុគ្គល ៨ ពួក (Summary in 8 Individuals)
+
+## ចិត្តនិយាម (Citta Niyāma)
+
+## អភិធម្ម ធម្មសង្គណី តិកមាតិកា ២២ (Dhammasaṅgaṇī Tikamātikā 22)
+
+## ពន្យល់ធម៌តាមលេខយោង (Explanations)
+            </script>
+        </div>
+    </div>
+
+    <footer>
+        Generated based on "ព្រះអភិធម្មមេរៀនដំបូង.pdf". Use mouse wheel to zoom, click and drag to pan.
+    </footer>
+
+    </body>
+</html>
